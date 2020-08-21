@@ -1,0 +1,39 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.caja{
+    border: solid #ccc;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+}
+.perfil img{
+    height: 45px;
+    border-radius: 80px;
+    margin-right: 8px;
+}
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+.perfil p{
+    font-weight: bold;
+}
+
+.contenido img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.final{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+.opciones img{
+    margin-right: 12px;
+}
